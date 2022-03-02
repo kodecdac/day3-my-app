@@ -1,15 +1,17 @@
 export default function App() {
   return (
     <div>
-      <AnyName />
+      <AnyName name="Russian war" />
+      <AnyName name="Americal War" />
+      <AnyName name="Indo War" />
     </div>
   );
 }
 
-function AnyName() {
+function AnyName(props) {
   return (
     <div>
-      <h1>Russian Warr</h1>
+      <h1>{props.name}</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
         reiciendis, nisi dolores quis nesciunt sit quibusdam, aspernatur nam
