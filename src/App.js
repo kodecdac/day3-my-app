@@ -1,12 +1,5 @@
-import logo from "./logo.svg";
-import "./App.css";
-
-function App() {
-  return (
-    <div>
-      <div>hello world</div>
-    </div>
-  );
+export default function App() {
+  return "Hello React....!!! We are not refreshing the page";
 }
 
-export default App;
+// export default App;
