@@ -1,12 +1,15 @@
 export default function App() {
-  // will come from backend
-  let subject = "Hello Universe";
-  let user = { id: 1, username: "rahul", city: "mumbai" };
-
   return (
     <div>
-      <h1>{subject}</h1>
-      <p>{user?.username}</p>
+      <h1>Hello World</h1>
+      <AnyName />
     </div>
   );
+}
+
+// NOTE :: CaptialCase
+// html, body, h1, div
+// UserDefined Tag :: Component :: <AnyName />
+function AnyName() {
+  return <div>Hello I am Any!!</div>;
 }
