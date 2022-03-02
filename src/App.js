@@ -8,10 +8,10 @@ export default function App() {
   );
 }
 
-function AnyName(props) {
+function AnyName({ name }) {
   return (
     <div>
-      <h1>{props.name}</h1>
+      <h1>{name}</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
         reiciendis, nisi dolores quis nesciunt sit quibusdam, aspernatur nam
