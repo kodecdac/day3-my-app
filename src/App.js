@@ -1,27 +1,12 @@
-// Interpolation ::
-function App() {
-  let name = "John";
-  let city = "New York";
-  let age = 30;
-  let isMarried = false;
-
-  // IMPORTANT
-  let user = { username: "rahul", city: "mumbai" };
-  let userr = undefined;
+export default function App() {
+  // will come from backend
+  let subject = "Hello Universe";
+  let user = { id: 1, username: "rahul", city: "mumbai" };
 
   return (
-    <h1>
-      Hello, {name} frommmm {city}!
-      <br />
-      You are {age} years old.
-      <br />
-      You are {isMarried ? "Married" : "UnMarried"}.
-      <br />
-      {user.username} is from {user.city}.
-      <br />
-      {userr?.username}
-    </h1>
+    <div>
+      <h1>{subject}</h1>
+      <p>{user?.username}</p>
+    </div>
   );
 }
-
-export default App;
