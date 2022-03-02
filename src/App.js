@@ -1,5 +1,7 @@
-export default function App() {
-  return "Hello React....!!! We are not refreshing the page";
+// Writing HTML in JavaScript :: WOW
+// JSX (JavaScript XML)
+function App() {
+  return <h1>Hello World, Congratulations!!</h1>;
 }
 
-// export default App;
+export default App;
